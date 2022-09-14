@@ -1,1 +1,1 @@
-# ht3-sql-database-mino
+# ht3-sql-database-mino-eda
