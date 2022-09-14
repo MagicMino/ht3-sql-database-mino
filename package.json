@@ -1,0 +1,24 @@
+{
+  "name": "ht3-sql-database-mino",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MagicMino/ht3-sql-database-mino.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MagicMino/ht3-sql-database-mino/issues"
+  },
+  "homepage": "https://github.com/MagicMino/ht3-sql-database-mino#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "pg": "^8.8.0"
+  }
+}
