@@ -1,0 +1,12 @@
+<!-- // But my advice is to go one step at a time, from the database, to a file that can get the credentials in, to scripts to create and populate the table with some sample data, then making a get request model function (with simple PostgreSQL query to get it), to a route file that calls this function, to a the app.js file, which has the main server, and finally using postman to send the request. Console logs don't always work with the fetch requests, but jest testing as we did in the project will give you insight into what is going wrong. -->
+
+
+PLAN
+1. Create Database folder
+2. Create file: createTable
+3. Create file: deleteTable
+4. Create file: populateTable
+5. Create file: retriveCredential
+6. Create an instance on elephantsql
+7. Create a .env file and paste the URL from the instance
+8. Populate the Retrive credential file
