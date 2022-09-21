@@ -1,11 +1,10 @@
-//or native libpq bindings
-//var pg = require('pg').native
 import pg from 'pg';
-
 import dotenv from 'dotenv';
 dotenv.config();
-const url=process.env.pgurl
 
-var client = new pg.Client(url);
 
-export default client;
+export default function instantClient() {
+    const client = new pg.Client(process.env.pgurl);
+    client.connect()
+    return client
+}
