@@ -38,8 +38,8 @@ import instantClient from '../database/retriveCredentials.js'
 
 export async function getTodos() {
   const client = instantClient();
-  let result = await client.query('SELECT NOW() AS "theTime"');
+  let result = await client.query('SELECT * FROM todos');
   console.log(result.rows);
   client.end();
-  return result.rows[0].theTime
+  return result.rows
 };
